@@ -1,0 +1,304 @@
+{
+  "training": {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "nutrition": {
+    "daily_plan": {
+      "breakfast": {
+        "name": "Wrap with ham and cheese + 2 eggs + coffee with milk",
+        "approx_calories": 400,
+        "ingredients": [
+          {
+            "name": "Wrap",
+            "quantity": "1 unit"
+          },
+          {
+            "name": "Ham",
+            "quantity": "1 slice"
+          },
+          {
+            "name": "Low-fat cheese",
+            "quantity": "1 slice"
+          },
+          {
+            "name": "Egg",
+            "quantity": "2 units"
+          },
+          {
+            "name": "Coffee with skim milk",
+            "quantity": "1 cup"
+          }
+        ],
+        "nutrition": {
+          "protein": "25g",
+          "carbs": "20g",
+          "fats": "20g"
+        },
+        "preparation": "Cook the eggs, assemble the wrap with ham and cheese, and serve with coffee with milk."
+      },
+      "lunch": {
+        "monday_tuesday": {
+          "name": "Ground beef with chickpeas and vegetables",
+          "approx_calories": 580,
+          "ingredients": [
+            {
+              "name": "Lean ground beef",
+              "quantity": "120g"
+            },
+            {
+              "name": "Cooked chickpeas",
+              "quantity": "100g"
+            },
+            {
+              "name": "Mixed vegetables",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Olive oil",
+              "quantity": "1 tsp"
+            }
+          ],
+          "nutrition": {
+            "protein": "35g",
+            "carbs": "30g",
+            "fats": "22g"
+          },
+          "preparation": "Sauté the beef and vegetables, add the chickpeas and season to taste."
+        },
+        "tuesday_wednesday": {
+          "name": "Sautéed chicken with vegetables and baked potato",
+          "approx_calories": 600,
+          "ingredients": [
+            {
+              "name": "Chicken breast",
+              "quantity": "150g"
+            },
+            {
+              "name": "Mixed vegetables",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Potato",
+              "quantity": "150g"
+            },
+            {
+              "name": "Olive oil",
+              "quantity": "1 tsp"
+            }
+          ],
+          "nutrition": {
+            "protein": "40g",
+            "carbs": "35g",
+            "fats": "25g"
+          },
+          "preparation": "Bake the potato, sauté the chicken and vegetables and serve."
+        },
+        "wednesday_thursday": {
+          "name": "Steak with whole wheat pasta and salad",
+          "approx_calories": 590,
+          "ingredients": [
+            {
+              "name": "Lean steak",
+              "quantity": "120g"
+            },
+            {
+              "name": "Whole wheat pasta",
+              "quantity": "1 cup cooked"
+            },
+            {
+              "name": "Mixed salad",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Olive oil",
+              "quantity": "1 tsp"
+            }
+          ],
+          "nutrition": {
+            "protein": "38g",
+            "carbs": "30g",
+            "fats": "24g"
+          },
+          "preparation": "Cook the pasta, grill the steak, and serve with fresh salad."
+        },
+        "thursday_friday": {
+          "name": "Tuna with carrot, cabbage, and tomato salad",
+          "approx_calories": 540,
+          "ingredients": [
+            {
+              "name": "Canned tuna",
+              "quantity": "1 can"
+            },
+            {
+              "name": "Carrot",
+              "quantity": "1 cup grated"
+            },
+            {
+              "name": "Cabbage",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Tomato",
+              "quantity": "1/2 cup"
+            },
+            {
+              "name": "Whole grain bread or boiled potato",
+              "quantity": "1 slice or 120g"
+            }
+          ],
+          "nutrition": {
+            "protein": "32g",
+            "carbs": "25g",
+            "fats": "18g"
+          },
+          "preparation": "Make the salad with tuna and vegetables and serve with bread or potato."
+        }
+      },
+      "snack": {
+        "name": "Plain yogurt with fruit",
+        "approx_calories": 200,
+        "ingredients": [
+          {
+            "name": "Plain yogurt",
+            "quantity": "120g"
+          },
+          {
+            "name": "Fruit",
+            "quantity": "1 unit"
+          }
+        ],
+        "nutrition": {
+          "protein": "8g",
+          "carbs": "20g",
+          "fats": "6g"
+        },
+        "preparation": "Mix the yogurt with fresh fruit."
+      },
+      "dinner": "Same as the lunch of the previous day (repeated)."
+    },
+    "shopping": {
+      "frequency": [
+        "weekly",
+        "monthly"
+      ],
+      "categories": {
+        "grains_and_dry_goods": [
+          {
+            "name": "Oats",
+            "quantity": "300g"
+          },
+          {
+            "name": "Dried lentils",
+            "quantity": "150g"
+          },
+          {
+            "name": "Whole wheat pasta",
+            "quantity": "140g"
+          },
+          {
+            "name": "Wraps",
+            "quantity": "5 units"
+          }
+        ],
+        "proteins": [
+          {
+            "name": "Eggs",
+            "quantity": "10 units"
+          },
+          {
+            "name": "Ground beef",
+            "quantity": "240g"
+          },
+          {
+            "name": "Chicken breast",
+            "quantity": "300g"
+          },
+          {
+            "name": "Lean steak",
+            "quantity": "240g"
+          },
+          {
+            "name": "Canned tuna",
+            "quantity": "2 cans"
+          }
+        ],
+        "dairy": [
+          {
+            "name": "Plain yogurt",
+            "quantity": "600g"
+          },
+          {
+            "name": "Low-fat cheese",
+            "quantity": "5 slices"
+          },
+          {
+            "name": "Skim milk",
+            "quantity": "1 liter"
+          }
+        ],
+        "vegetables": [
+          {
+            "name": "Carrot",
+            "quantity": "3 units"
+          },
+          {
+            "name": "Onion",
+            "quantity": "2 units"
+          },
+          {
+            "name": "Zucchini",
+            "quantity": "1 unit"
+          },
+          {
+            "name": "Potato",
+            "quantity": "450g"
+          },
+          {
+            "name": "Tomato",
+            "quantity": "2 units"
+          },
+          {
+            "name": "Cabbage",
+            "quantity": "1 unit"
+          },
+          {
+            "name": "Lettuce",
+            "quantity": "1 unit"
+          },
+          {
+            "name": "Broccoli",
+            "quantity": "1 unit"
+          },
+          {
+            "name": "Bell pepper",
+            "quantity": "2 units"
+          }
+        ],
+        "pantry": [
+          {
+            "name": "Olive oil",
+            "quantity": "1 bottle"
+          },
+          {
+            "name": "Spices",
+            "quantity": "1 pack"
+          },
+          {
+            "name": "Coffee",
+            "quantity": "1 pack"
+          },
+          {
+            "name": "Sweetener",
+            "quantity": "1 box"
+          }
+        ]
+      }
+    }
+  }
+}

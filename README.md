@@ -1,3 +1,5 @@
+# See the deployment of this app at:
+[Click here](https://nutrition-app-omega-indol.vercel.app/).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

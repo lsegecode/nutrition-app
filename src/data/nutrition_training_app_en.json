@@ -1,39 +1,223 @@
 {
   "training": {
-    "monday": [],
-    "tuesday": [],
-    "wednesday": [],
-    "thursday": [],
-    "friday": [],
+    "monday": [
+      {
+        "muscle_group": "Back",
+        "exercises": [
+          "Pull-ups 4x8-10",
+          "Barbell row 4x8-10",
+          "Close-grip lat pulldown 3x10-12"
+        ]
+      },
+      {
+        "muscle_group": "Biceps",
+        "exercises": [
+          "EZ bar curl 4x8-10",
+          "Hammer curl 3x10-12",
+          "Incline dumbbell curl 3x12"
+        ]
+      },
+      {
+        "muscle_group": "Forearms",
+        "exercises": [
+          "Reverse curl 3x12-15",
+          "Farmer’s walk 3x30 sec"
+        ]
+      }
+    ],
+    "tuesday": [
+      {
+        "muscle_group": "Chest",
+        "exercises": [
+          "Flat barbell bench press 4x8-10",
+          "Incline dumbbell press 4x8-10",
+          "Dumbbell flyes 3x12"
+        ]
+      },
+      {
+        "muscle_group": "Triceps",
+        "exercises": [
+          "Dips 3x8-10",
+          "EZ bar skull crushers 3x10-12",
+          "Rope pushdowns 3x12-15"
+        ]
+      },
+      {
+        "muscle_group": "Shoulders",
+        "exercises": [
+          "Overhead press 4x8-10",
+          "Lateral raises 3x12",
+          "Face pulls 3x12-15"
+        ]
+      }
+    ],
+    "wednesday": [
+      {
+        "muscle_group": "Quadriceps",
+        "exercises": [
+          "Back squat 4x8-10",
+          "Leg press 4x10-12",
+          "Dumbbell lunges 3x12"
+        ]
+      },
+      {
+        "muscle_group": "Hamstrings/Glutes",
+        "exercises": [
+          "Romanian deadlift 4x8-10",
+          "Leg curl machine 3x12",
+          "Hip thrust 3x12"
+        ]
+      },
+      {
+        "muscle_group": "Calves",
+        "exercises": [
+          "Standing calf raises 4x15-20",
+          "Seated calf raises 3x20"
+        ]
+      }
+    ],
+    "thursday": [
+      {
+        "muscle_group": "Back",
+        "exercises": [
+          "Deadlift 4x6-8",
+          "Chin-ups 4x8-10",
+          "Seated row 3x12"
+        ]
+      },
+      {
+        "muscle_group": "Biceps",
+        "exercises": [
+          "Preacher curl 3x10",
+          "Alternating dumbbell curl with supination 3x10-12",
+          "21s curls 3 sets"
+        ]
+      },
+      {
+        "muscle_group": "Forearms",
+        "exercises": [
+          "Wrist roller 3 rounds",
+          "Wrist curls on bench 3x15"
+        ]
+      }
+    ],
+    "friday": [
+      {
+        "muscle_group": "Chest",
+        "exercises": [
+          "Incline barbell press 4x8-10",
+          "Decline dumbbell press 3x10",
+          "Cable crossovers 3x12-15"
+        ]
+      },
+      {
+        "muscle_group": "Triceps",
+        "exercises": [
+          "Straight bar pushdowns 3x12",
+          "Skull crushers 3x10",
+          "Dumbbell kickbacks 3x12"
+        ]
+      },
+      {
+        "muscle_group": "Shoulders",
+        "exercises": [
+          "Arnold press 3x8-10",
+          "Front raises with plate 3x12",
+          "Rear delt flyes 3x12"
+        ]
+      }
+    ],
     "saturday": [],
     "sunday": []
   },
+
+  "training_menu": {
+    "default": {
+      "warmup": [
+        "5–7 min light cardio (bike/rower/treadmill)",
+        "Dynamic mobility: arm circles 2×15, leg swings 2×12 each",
+        "Activation: band pull-aparts 2×15 or glute bridges 2×15 (depending on day)"
+      ],
+      "stretching": [
+        "Breathing: 4 slow breaths",
+        "Foam roll tight areas 1–2 min",
+        "Gentle static holds 20–30s each, total 5 min"
+      ]
+    },
+    "monday": {
+      "warmup": [
+        "5–7 min rowing",
+        "Scapula pull-ups 2×10, thoracic rotations 2×8",
+        "Band lat activation 2×12; light curls 1×15"
+      ],
+      "stretching": [
+        "Lats doorway stretch 2×30s",
+        "Biceps wall stretch 2×30s",
+        "Forearm flexor/extensor stretch 2×30s each"
+      ]
+    },
+    "tuesday": {
+      "warmup": [
+        "5–7 min treadmill walk",
+        "Shoulder circles 2×15, PVC pass-throughs 2×10",
+        "Push-ups 2×10, band external rotations 2×12"
+      ],
+      "stretching": [
+        "Chest doorway stretch 2×30s",
+        "Triceps overhead stretch 2×30s",
+        "Rear delt stretch 2×30s"
+      ]
+    },
+    "wednesday": {
+      "warmup": [
+        "5–7 min bike",
+        "World’s greatest stretch 2× each side",
+        "Glute bridges 2×15, bodyweight squats 2×15"
+      ],
+      "stretching": [
+        "Hamstring stretch 2×30s",
+        "Quad stretch 2×30s",
+        "Hip flexor lunge stretch 2×30s",
+        "Calves wall stretch 2×30s"
+      ]
+    },
+    "thursday": {
+      "warmup": [
+        "5–7 min rowing",
+        "Cat-camel 2×10, scapula pull-ups 2×10",
+        "KB deadlift technique 2×10 (light)"
+      ],
+      "stretching": [
+        "Lats stretch 2×30s",
+        "Biceps/forearm stretch 2×30s",
+        "Child’s pose 2×30s"
+      ]
+    },
+    "friday": {
+      "warmup": [
+        "5–7 min treadmill walk",
+        "PVC pass-throughs 2×10, band external rotations 2×12",
+        "Push-ups 2×10, face pulls 2×12 (light)"
+      ],
+      "stretching": [
+        "Chest doorway stretch 2×30s",
+        "Triceps overhead 2×30s",
+        "Upper trap/neck gentle stretch 2×20s"
+      ]
+    }
+  },
+
   "nutrition": {
     "daily_plan": {
       "breakfast": {
         "name": "Wrap with ham and cheese + 2 eggs + coffee with milk",
         "approx_calories": 400,
         "ingredients": [
-          {
-            "name": "Wrap",
-            "quantity": "1 unit"
-          },
-          {
-            "name": "Ham",
-            "quantity": "1 slice"
-          },
-          {
-            "name": "Low-fat cheese",
-            "quantity": "1 slice"
-          },
-          {
-            "name": "Egg",
-            "quantity": "2 units"
-          },
-          {
-            "name": "Coffee with skim milk",
-            "quantity": "1 cup"
-          }
+          { "name": "Wrap", "quantity": "1 unit" },
+          { "name": "Ham", "quantity": "1 slice" },
+          { "name": "Low-fat cheese", "quantity": "1 slice" },
+          { "name": "Egg", "quantity": "2 units" },
+          { "name": "Coffee with skim milk", "quantity": "1 cup" }
         ],
         "nutrition": {
           "protein": "25g",
@@ -47,22 +231,10 @@
           "name": "Ground beef with chickpeas and vegetables",
           "approx_calories": 580,
           "ingredients": [
-            {
-              "name": "Lean ground beef",
-              "quantity": "120g"
-            },
-            {
-              "name": "Cooked chickpeas",
-              "quantity": "100g"
-            },
-            {
-              "name": "Mixed vegetables",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "Olive oil",
-              "quantity": "1 tsp"
-            }
+            { "name": "Lean ground beef", "quantity": "120g" },
+            { "name": "Cooked chickpeas", "quantity": "100g" },
+            { "name": "Mixed vegetables", "quantity": "1 cup" },
+            { "name": "Olive oil", "quantity": "1 tsp" }
           ],
           "nutrition": {
             "protein": "35g",
@@ -75,22 +247,10 @@
           "name": "Sautéed chicken with vegetables and baked potato",
           "approx_calories": 600,
           "ingredients": [
-            {
-              "name": "Chicken breast",
-              "quantity": "150g"
-            },
-            {
-              "name": "Mixed vegetables",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "Potato",
-              "quantity": "150g"
-            },
-            {
-              "name": "Olive oil",
-              "quantity": "1 tsp"
-            }
+            { "name": "Chicken breast", "quantity": "150g" },
+            { "name": "Mixed vegetables", "quantity": "1 cup" },
+            { "name": "Potato", "quantity": "150g" },
+            { "name": "Olive oil", "quantity": "1 tsp" }
           ],
           "nutrition": {
             "protein": "40g",
@@ -103,22 +263,10 @@
           "name": "Steak with whole wheat pasta and salad",
           "approx_calories": 590,
           "ingredients": [
-            {
-              "name": "Lean steak",
-              "quantity": "120g"
-            },
-            {
-              "name": "Whole wheat pasta",
-              "quantity": "1 cup cooked"
-            },
-            {
-              "name": "Mixed salad",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "Olive oil",
-              "quantity": "1 tsp"
-            }
+            { "name": "Lean steak", "quantity": "120g" },
+            { "name": "Whole wheat pasta", "quantity": "1 cup cooked" },
+            { "name": "Mixed salad", "quantity": "1 cup" },
+            { "name": "Olive oil", "quantity": "1 tsp" }
           ],
           "nutrition": {
             "protein": "38g",
@@ -131,26 +279,11 @@
           "name": "Tuna with carrot, cabbage, and tomato salad",
           "approx_calories": 540,
           "ingredients": [
-            {
-              "name": "Canned tuna",
-              "quantity": "1 can"
-            },
-            {
-              "name": "Carrot",
-              "quantity": "1 cup grated"
-            },
-            {
-              "name": "Cabbage",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "Tomato",
-              "quantity": "1/2 cup"
-            },
-            {
-              "name": "Whole grain bread or boiled potato",
-              "quantity": "1 slice or 120g"
-            }
+            { "name": "Canned tuna", "quantity": "1 can" },
+            { "name": "Carrot", "quantity": "1 cup grated" },
+            { "name": "Cabbage", "quantity": "1 cup" },
+            { "name": "Tomato", "quantity": "1/2 cup" },
+            { "name": "Whole grain bread or boiled potato", "quantity": "1 slice or 120g" }
           ],
           "nutrition": {
             "protein": "32g",
@@ -164,14 +297,8 @@
         "name": "Plain yogurt with fruit",
         "approx_calories": 200,
         "ingredients": [
-          {
-            "name": "Plain yogurt",
-            "quantity": "120g"
-          },
-          {
-            "name": "Fruit",
-            "quantity": "1 unit"
-          }
+          { "name": "Plain yogurt", "quantity": "120g" },
+          { "name": "Fruit", "quantity": "1 unit" }
         ],
         "nutrition": {
           "protein": "8g",
@@ -183,120 +310,42 @@
       "dinner": "Same as the lunch of the previous day (repeated)."
     },
     "shopping": {
-      "frequency": [
-        "weekly",
-        "monthly"
-      ],
+      "frequency": ["weekly", "monthly"],
       "categories": {
         "grains_and_dry_goods": [
-          {
-            "name": "Oats",
-            "quantity": "300g"
-          },
-          {
-            "name": "Dried lentils",
-            "quantity": "150g"
-          },
-          {
-            "name": "Whole wheat pasta",
-            "quantity": "140g"
-          },
-          {
-            "name": "Wraps",
-            "quantity": "5 units"
-          }
+          { "name": "Oats", "quantity": "300g" },
+          { "name": "Dried lentils", "quantity": "150g" },
+          { "name": "Whole wheat pasta", "quantity": "140g" },
+          { "name": "Wraps", "quantity": "5 units" }
         ],
         "proteins": [
-          {
-            "name": "Eggs",
-            "quantity": "10 units"
-          },
-          {
-            "name": "Ground beef",
-            "quantity": "240g"
-          },
-          {
-            "name": "Chicken breast",
-            "quantity": "300g"
-          },
-          {
-            "name": "Lean steak",
-            "quantity": "240g"
-          },
-          {
-            "name": "Canned tuna",
-            "quantity": "2 cans"
-          }
+          { "name": "Eggs", "quantity": "10 units" },
+          { "name": "Ground beef", "quantity": "240g" },
+          { "name": "Chicken breast", "quantity": "300g" },
+          { "name": "Lean steak", "quantity": "240g" },
+          { "name": "Canned tuna", "quantity": "2 cans" }
         ],
         "dairy": [
-          {
-            "name": "Plain yogurt",
-            "quantity": "600g"
-          },
-          {
-            "name": "Low-fat cheese",
-            "quantity": "5 slices"
-          },
-          {
-            "name": "Skim milk",
-            "quantity": "1 liter"
-          }
+          { "name": "Plain yogurt", "quantity": "600g" },
+          { "name": "Low-fat cheese", "quantity": "5 slices" },
+          { "name": "Skim milk", "quantity": "1 liter" }
         ],
         "vegetables": [
-          {
-            "name": "Carrot",
-            "quantity": "3 units"
-          },
-          {
-            "name": "Onion",
-            "quantity": "2 units"
-          },
-          {
-            "name": "Zucchini",
-            "quantity": "1 unit"
-          },
-          {
-            "name": "Potato",
-            "quantity": "450g"
-          },
-          {
-            "name": "Tomato",
-            "quantity": "2 units"
-          },
-          {
-            "name": "Cabbage",
-            "quantity": "1 unit"
-          },
-          {
-            "name": "Lettuce",
-            "quantity": "1 unit"
-          },
-          {
-            "name": "Broccoli",
-            "quantity": "1 unit"
-          },
-          {
-            "name": "Bell pepper",
-            "quantity": "2 units"
-          }
+          { "name": "Carrot", "quantity": "3 units" },
+          { "name": "Onion", "quantity": "2 units" },
+          { "name": "Zucchini", "quantity": "1 unit" },
+          { "name": "Potato", "quantity": "450g" },
+          { "name": "Tomato", "quantity": "2 units" },
+          { "name": "Cabbage", "quantity": "1 unit" },
+          { "name": "Lettuce", "quantity": "1 unit" },
+          { "name": "Broccoli", "quantity": "1 unit" },
+          { "name": "Bell pepper", "quantity": "2 units" }
         ],
         "pantry": [
-          {
-            "name": "Olive oil",
-            "quantity": "1 bottle"
-          },
-          {
-            "name": "Spices",
-            "quantity": "1 pack"
-          },
-          {
-            "name": "Coffee",
-            "quantity": "1 pack"
-          },
-          {
-            "name": "Sweetener",
-            "quantity": "1 box"
-          }
+          { "name": "Olive oil", "quantity": "1 bottle" },
+          { "name": "Spices", "quantity": "1 pack" },
+          { "name": "Coffee", "quantity": "1 pack" },
+          { "name": "Sweetener", "quantity": "1 box" }
         ]
       }
     }

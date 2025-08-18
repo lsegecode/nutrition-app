@@ -33,6 +33,22 @@ const App = () => {
   };
 
   const lunch = getLunch();
+  const trainingDay = data.training[selectedDay] || [];
+
+  const [trainingTab, setTrainingTab] = useState("training"); // "warmup" | "training" | "stretching"
+  const trainingBlocks = data.training?.[selectedDay] ?? [];
+
+  const warmupList =
+    data.training_menu?.[selectedDay]?.warmup ??
+    data.training_menu?.default?.warmup ??
+    [];
+
+  const stretchingList =
+    data.training_menu?.[selectedDay]?.stretching ??
+    data.training_menu?.default?.stretching ??
+    [];
+
+
 
   return (
     <div className="bg-dark text-light min-vh-100 py-3">
@@ -106,15 +122,67 @@ const App = () => {
 
         {/* Training Card */}
         {view === "training" && (
-          <div className="card bg-secondary text-white shadow-sm rounded-4 mb-3">
-            <div className="card-header bg-info rounded-top-4 text-white py-2 px-3" style={{ fontSize: "1rem" }}>
-              Training
+          <>
+            {/* WARM-UP (rojo) */}
+            <div className="card bg-secondary text-white shadow-sm rounded-4 mb-3">
+              <div className="card-header bg-danger rounded-top-4 text-white py-2 px-3" style={{ fontSize: "1rem" }}>
+                Warm-up
+              </div>
+              <div className="card-body small px-3 py-2">
+                <p>📅 <strong>{dayLabels[selectedDay]}</strong></p>
+                {warmupList.length === 0 ? (
+                  <p>⚠️ No warm-up defined.</p>
+                ) : (
+                  <ul className="mb-0 ps-3">
+                    {warmupList.map((it, i) => <li key={i}>{it}</li>)}
+                  </ul>
+                )}
+              </div>
             </div>
-            <div className="card-body small px-3 py-2">
-              <p>📅 <strong>{dayLabels[selectedDay]}</strong></p>
-              <p>🏋️ Training plan coming soon...</p>
+
+            {/* TRAINING (celeste) */}
+            <div className="card bg-secondary text-white shadow-sm rounded-4 mb-3">
+              <div className="card-header bg-info rounded-top-4 text-white py-2 px-3" style={{ fontSize: "1rem" }}>
+                Training
+              </div>
+              <div className="card-body small px-3 py-2">
+                <p>📅 <strong>{dayLabels[selectedDay]}</strong></p>
+                {trainingBlocks.length === 0 ? (
+                  <p>🏋️ No training data for this day.</p>
+                ) : (
+                  trainingBlocks.map((block, i) => (
+                    <div key={i} className="mb-3">
+                      <p className="mb-1">
+                        <span className="badge bg-light text-dark me-2">{block.muscle_group}</span>
+                      </p>
+                      <ul className="mb-0 ps-3">
+                        {block.exercises.map((ex, idx) => (
+                          <li key={idx}>{ex}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))
+                )}
+              </div>
             </div>
-          </div>
+
+            {/* STRETCHING (amarillo) */}
+            <div className="card bg-secondary text-white shadow-sm rounded-4 mb-3">
+              <div className="card-header bg-warning rounded-top-4 text-dark py-2 px-3" style={{ fontSize: "1rem" }}>
+                Stretching
+              </div>
+              <div className="card-body small px-3 py-2">
+                <p>📅 <strong>{dayLabels[selectedDay]}</strong></p>
+                {stretchingList.length === 0 ? (
+                  <p>🧘 No stretching defined.</p>
+                ) : (
+                  <ul className="mb-0 ps-3">
+                    {stretchingList.map((it, i) => <li key={i}>{it}</li>)}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </>
         )}
       </div>
     </div>
